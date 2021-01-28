@@ -1,68 +1,367 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Qinjin Fan</title>
-  </head>
-  <body>
-    <table cellspacing ="20">
-      <tr>
-        <td><img src = "images/qinjinfan.png" width="125" height="125"></td>
-        <td><h1>Qinjin Fan</h1>
-          <p>Ph.D. Candidate, Geographic Information Systems, UGA </p>
-          <p>A Dedicated and hardworking GIS Analyst</p>
-        </td>
-      </tr>
-    </table>
-    <hr>
-    <h3>Education</h3>
-    <ul>
-      <li>Ph.D. Candidate, Geographic Information Systems, University of Georgia, Athens, GA, USA (08/2014-Present)</li>
-      <li>Master of Science, Geographic Information Systems, University at Buffalo, Buffalo, NY, USA (08/2012-06/2014)</li>
-      <li>Master of Science, Engineering Physics, Tsinghua University, Beijing, China (09/2009-06/2012)</li>
-      <li>Bachelor of Science, Geographic Information Systems, Southwest Jiaotong University, Chengdu, China (09/2005-06/2009)</li>
-    </ul>
-    <hr>
-    <h3>Work Experiences</h3>
-    <ul>
-      <li><b>PhD Candidate,</b> <i>Geographic Information Systems, UGA 09/2018-Present</i>
-        <ul>
-          <li>Conducted research on spatial epidemiology, healthcare accessibility and health equity. Identified clusters and time trends of disease and health outcomes at various spatial scales.</li>
-          <li>Led all phases of project data mining lifecycle: data preparation, cleansing, modeling, and fine-tuning to build accurate, robust, and reliable statistical results.</li>
-          <li>Implemented accessibility and network analysis with ArcGIS and TransCAD.</li>
-          <li>Managed and processed spatial/non-spatial large datasets and performed analysis in the High-Performance Compute environment.</li>
-          <li>Provided more than 100 college students with GIS software training.</li>
-          <li>Developed presentations/story maps.</li>
-          <li>Published 7 articles in peer-reviewed journals and books.</li>
-        </ul>
-      </li>
-      <li><b>Health Service Research Intern,</b> <i>American Cancer Society, Atlanta, Georgia 03/2018-05/2020</i>
-        <ul>
-          <li>Conducted research on female breast cancer disparity in the United States based on NCDB and SEER data.</li>
-          <li>Applied GIS technology to integrate, visualize, and analyze health data and identified spatial and temporal patterns.</li>
-          <li>Utilized statistical modeling, machine learning and numerical optimization to discover patterns and assess risk factors in health outcomes through time series analysis, survival analysis, clustering, regressions, and Monte-Carlo simulation.</li>
-          <li><a href="https://popouta.shinyapps.io/RERmaps/?_ga=2.73329937.322439477.1610727755-387159277.1608910078">Generated and published interactive web maps using Leaflet and Shiny. </a> </li>
-        </ul>
-      </li>
-      <li><b>Research Assistant,</b> <i>Southwest Jiaotong University, Chengdu, China 01/2018-12/2008</i>
-        <ul>
-          <li>Developed a 3D model of college campus and published through ArcGIS Server.</li>
-          <li>Produced georeferenced historical imagery and maps and collected field data with GPS equipment.</li>
-          <li>Created 3D models with SketchUp.</li>
-        </ul>
-      </li>
-    </ul>
-    <hr>
-    <h3>Skills</h3>
-    <ul>
-      <li>Strong working knowledge on the usage of GIS software: ArcGIS desktops, ArcGIS pro, ArcGIS online, QGIS</li>
-      <li>Proficient with spatial data analysis software: GeoDa, SatScan, SpaceStat, Tableau,TransCAD</li>
-      <li>Strong mathematical, statistical, and analytical skills using R, SAS, Stata, Python, SPSS, MS Excel, OpenBUGS</li>
-      <li>Deep understanding of statistical and predictive modeling concepts and optimization algorithms</li>
-      <li>Experience with maintaining and utilizing database: SQL</li>
-      <li>Certification: SAS Certified Base Programmer for SAS 9</li>
-    </ul>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>QinjinFan@Athens</title>
+        <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+            <a class="navbar-brand js-scroll-trigger" href="#page-top">
+                <span class="d-block d-lg-none">Clarence Taylor</span>
+                <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="assets/img/profile.jpg" alt="" /></span>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#publication">Publication</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Experience</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Education</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#teaching">Teaching</a></li>
+                  <!--   <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#interests">Interests</a></li>-->
+                  <!--  <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#awards">Awards</a></li>-->
+                </ul>
+            </div>
+        </nav>
+        <!-- Page Content-->
+        <div class="container-fluid p-0">
+            <!-- About-->
+            <section class="resume-section" id="about">
+                <div class="resume-section-content">
+                    <h1 class="mb-0">
+                        Qinjin
+                        <span class="text-primary">Fan</span>
+                    </h1>
+                    <div class="subheading mb-5">
+                        210 Field St #204 · Athens, GA 30602  · (716) 361-3907 ·
+                        <a href="mailto:name@email.com">qf06592@uga.edu</a>
+                    </div>
+                    <p class="lead mb-5"> My research interests are <b> Spatial Epidemiology, Health Equity, and  Healthcare Accessibility.</b></p>
+                    <div class="social-icons">
+                        <a class="social-icon" href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a class="social-icon" href="#"><i class="fab fa-github"></i></a>
+                        <a class="social-icon" href="#"><i class="fab fa-twitter"></i></a>
+                        <a class="social-icon" href="#"><i class="fab fa-facebook-f"></i></a>
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0" />
 
+            <!-- Experience-->
+            <section class="resume-section" id="publication">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Publication</h2>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <p><b>Fan, Q.</b>, Yao, X., & Han, X. (2020). Spatial variation and disparity in female breast cancer relative survival in the United States. Cancer Epidemiology, Biomarkers & Prevention. (Under review)</p>
+                            <p><b>Fan, Q.</b>, Yao, X., & Han, X. Small area estimation of Black White racial disparity in female breast cancer survival through the shared component model. Target journal: Health & Place. (In preparation)</p>
+                            <p><b>Fan, Q.</b>, & Yao, X. A., & Dang. A. (2020). Spatio-temporal Analysis and Data Mining of the 2014-2016 Ebola Virus Disease Outbreak in West Africa. Geospatial Technologies for Urban Health. 181-208. Springer, Cha</p>
+                            <p>Liu, G., <b>Fan, Q.</b>, Li, W., Scaringi, G., Long, Y., He, J., & Li, Z. (2020). Spatio-temporal network modeling and analysis of global strong earthquakes (Mw≥ 6.0). Journal of the Geological Society.</p>
+                            <p>Liu, G., Yao, X., & <b>Fan, Q.</b> (2020). Agglomeration centrality examination of cities: an urban transport perspective. Sustainable Cities and Society, 102273.</p>
+                            <p>Tian, Y., Yao, X. A., Mu, L., <b>Fan, Q.</b>, & Liu, Y. (2020). Integrating meteorological factors for better understanding of the urban form-air quality relationship. Landscape Ecology, 1-17.</p>
+                            <p>Liu, G., Li, W., Xie, Z., Wang, D., & <b>Fan, Q.</b> (2020). Elevation-based and crustal thickness-based spatial statistical analysis of global strong earthquakes (Mw ≥ 6.0). Physica A: Statistical Mechanics and its Applications. (Accepted)Liu, G., Yao, X., Luo, Z., Kang, S., Long, W., Fan, Q., & Gao, P. (2019). Agglomeration centrality to examine spatial scaling law in cities. Computers, Environment and Urban Systems, 77, 101357.</p>
+                            <p>Liu, G., Yao, X., Luo, Z., Kang, S., Long, W., <b>Fan, Q.</b>, & Gao, P. (2019). Agglomeration centrality to examine spatial scaling law in cities. Computers, Environment and Urban Systems, 77, 101357.</p>
+                            <p>Xi, D., <b>Fan, Q.</b>, Yao, X. A., Jiang, W., & Duan, D. (2016). A visual salience model for wayfinding in 3D virtual urban environments. Applied Geography, 75, 176-187.</p>
+                            <p>Wang, J. H., Zhu, J., <b>Fan, Q. J.</b>, & Long, J. L. (2011). Web virtual campus research based on ArcGIS server and ArcGlobe. Geomatics & Spatial Information Technology, 2.</p>
+                        </div>
+                    </div>
 
-  </body>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Experience-->
+            <section class="resume-section" id="experience">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Experience</h2>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">PhD Candidate</h3>
+                            <div class="subheading mb-3">University Of Georgia, Athens, Georgia</div>
+                            <p>Conducted research on spatial epidemiology, healthcare accessibility and health equity. Identified clusters and time trends of disease and health outcomes at various spatial scales.</p>
+                            <p>Conducted small area estimation using the Bayesian hierarchical model based on WINBUGS and R.</p>
+                            <p>Analyzed spatial-temporal spread patterns of the Ebola Virus Disease in Guinea, Liberia, and Sierra Leone.</p>
+                            <p>Collected Twitter data using REST API and performed analysis to detect the spatial-temporal clusters of the Ebola Virus Disease outbreak in West Africa.</p>
+                            <p>Investigated the disparity in healthcare accessibility and population density based on the 2SFCA (2-step floating catchment area model) and network analysis.</p>
+                            <p>Processed large datasets and performed statistical analysis in the High-Performance Compute environment.</p>
+                            <p>Created visually impactful dashboards to identify the trends of cancer outcomes.</p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">Speptember 2018 - Present</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Health Service Research Intern</h3>
+                            <div class="subheading mb-3">American Cancer Society, Atlanta, Georgia</div>
+                            <p>Analyzed SEER and NCDB health data and built models (GLMM, Cox models, piecewise exponential model, restricted cubic splines, shared component models, etc.) to investigate the disparity in cancer outcomes using SAS, R, and Stata.</p>
+                            <p>Analyzed the impact of environmental, socioeconomic, and clinic factors on cancer outcomes using statistical models.</p>
+                            <p>Conducted spatial and spatial-temporal analysis using ArcGIS, GeoDa, SaTScan, and SpaceStat.</p>
+                            <p>Created interactive maps to visualize changes and disparity in cancer outcomes using Leaflet and Shiny.</p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary"> March 2018 - May 2020</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Research Assistant</h3>
+                            <div class="subheading mb-3">Tsinghua University, Beijing, China</div>
+                            <p>Conducted the reliability analysis of different machine assembly processes based on FMECA.</p>
+                            <p>Established models and calculated the effects caused by damage to machinery using Matlab.</p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">July 2010 - December 2011</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Research Assistant</h3>
+                            <div class="subheading mb-3">Southwest Jiaotong University, Chengdu, China</div>
+                            <p>Developed a 3D model of college campus and published through ArcGIS Server.</p>
+                            <p>Published the 3D campus model through ArcGIS Server.</p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">July 2010 - December 2011</span></div>
+                    </div>
+
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Education-->
+            <section class="resume-section" id="education">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Education</h2>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">University of Georgia</h3>
+                            <div class="subheading mb-3">Ph.D. Candidate</div>
+                            <div>Geographic Information Systems</div>
+
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">August 2014 - Present</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">New York State University at Buffalo</h3>
+                            <div class="subheading mb-3">Master of Science</div>
+                            <div>Geographic Information Systems</div>
+
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">August 2012 - June 2014</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Tsinghua University, Beijing, China</h3>
+                            <div class="subheading mb-3">Master of Science</div>
+                            <div>Engineering Physics</div>
+
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">September 2009 - June 2012</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Southwest Jiaotong University, Chengdu, China</h3>
+                            <div class="subheading mb-3">Bachelor of Science</div>
+                            <div>Geographic Information Systems</div>
+
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">September 2005 - June 2009</span></div>
+                    </div>
+
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Skills-->
+            <section class="resume-section" id="skills">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Skills</h2>
+        <!--            <div class="subheading mb-3">Programming Languages & Tools</div>
+
+                    <ul class="list-inline dev-icons">
+                        <li class="list-inline-item"><i class="fab fa-html5"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-css3-alt"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-js-square"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-angular"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-react"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-node-js"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-sass"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-less"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-wordpress"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-gulp"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-grunt"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-npm"></i></li>
+                    </ul>
+                     <div class="subheading mb-3">Workflow</div> -->
+                    <ul class="fa-ul mb-0">
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            Strong working knowledge on the usage of GIS software: ArcGIS desktops, ArcGIS pro, ArcGIS online, QGIS
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            Proficient with spatial data analysis software: GeoDa, SatScan, SpaceStat, Tableau,TransCAD
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            Strong mathematical, statistical, and analytical skills using R, SAS, Stata, Python, SPSS, MS Excel, OpenBUGS
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            Deep understanding of statistical and predictive modeling concepts and optimization algorithms
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            Experience with maintaining and utilizing database: SQL, MongoDB
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            Certification: SAS Certified Base Programmer for SAS 9
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+            <hr class="m-0" />
+            <!-- Teaching-->
+            <section class="resume-section" id="teaching">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Teaching Experience</h2>
+                    <h3 class="mb-0">Summary</h3>
+                    <li>
+                        <span class="fa-li"></span>
+                        GEOG 8350L Machine Learning with Geospatial Big Data Lab, 2021 Spring, <b>Instructor,</b> Score (-)
+                    </li>
+                    <li>
+                        <span class="fa-li"></span>
+                        GEOG 6/4380L Transportation Modeling and GIS Lab, 2020 Spring, 2017 Fall, 2014 Fall, <b>Instructor</b>, Score (4.9/5.0)
+                    </li>
+                    <li>
+                        <span class="fa-li"></span>
+                        GEOG 1111L Introduction to Physical Geography Lab, 2019 Fall, <b>Instructor</b>, Score (4.1/5.0)
+                    </li>
+                    <li>
+                        <span class="fa-li"></span>
+                        GEOG 6/4470L Geospatial Analysis Lab, 2016 Fall, 2016 Spring, <b>Instructor</b>, Score (4.8/5.0)
+                    </li>
+                    <li>
+                        <span class="fa-li"></span>
+                        GEOG 6/4370L Geographic Information Science Lab, 2015 Fall, 2015 Spring, <b>Instructor</b>, Score (4.0/5.0)
+                    </li>
+                    <li>
+                        <span class="fa-li"></span>
+                        GEOG 2250H Resources, Society, and the Environment (Honors), Fall 2020, <b>Teaching Assistant</b>, Score (-)
+                    </li>
+                    <li>
+                        <span class="fa-li"></span>
+                        GEOG 4385 Community GIS, Spring 2017, Spring 2018, <b>Teaching Assistant</b>, Score (-)
+                    </li>
+                    <br>
+                    <h3 class="mb-0">Awards</h3>
+                    <li>
+                        <span class="fa-li"></span>
+                        Outstanding Teaching Assistant Award, 2018. Department of Geography, University of Georgia
+                    </li>
+                    <br>
+                    <h3 class="mb-0">Comments</h3>
+                    <ul class="fa-ul mb-0">
+                        <li>
+                            <span class="fa-li"></span>
+                            <i>"Strong working knowledge on the usage of GIS software: ArcGIS desktops, ArcGIS pro, ArcGIS online, QGIS."</i>
+                        </li>
+                        <li>
+                            <span class="fa-li"></span>
+                            <i>"What I would find useful is to pair up some of the labs with homework so that we could employ some techniques and clearly understand how concepts can be applied in program."</i>
+                        </li>
+                        <li>
+                            <span class="fa-li"></span>
+                            <i>"Qinjin is extremely nice and has been very pleasant. I am glad she was my TA this semester. She has really been beneficial to my leaning."</i>
+                        </li>
+                        <li>
+                            <span class="fa-li"></span>
+                            <i>"Qinjin Fan was a great instructor. She was very helpful if I ever had questions about labs or material we were learning."</i>
+                        </li>
+                        <li>
+                            <span class="fa-li"></span>
+                            <i>"TA was very quick to respond to questions by email and gave long, thoughtful answers."</i>
+                        </li>
+
+                    </ul>
+                </div>
+
+            </section>
+
+            <hr class="m-0" />
+
+            <!-- Interests-->
+            <!--
+            <section class="resume-section" id="interests">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Interests</h2>
+                    <h3 class="mb-0">Spatial Epidemiology. Health Equity. Healthcare Accessibility</h3>
+            </section>-->
+
+            <!--
+            <hr class="m-0" />
+             Awards
+            <section class="resume-section" id="awards">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Awards & Certifications</h2>
+                    <ul class="fa-ul mb-0">
+                        <li>
+                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+                            Google Analytics Certified Developer
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+                            Mobile Web Specialist - Google Certification
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+                            1
+                            <sup>st</sup>
+                            Place - University of Colorado Boulder - Emerging Tech Competition 2009
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+                            1
+                            <sup>st</sup>
+                            Place - University of Colorado Boulder - Adobe Creative Jam 2008 (UI Design Category)
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+                            2
+                            <sup>nd</sup>
+                            Place - University of Colorado Boulder - Emerging Tech Competition 2008
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+                            1
+                            <sup>st</sup>
+                            Place - James Buchanan High School - Hackathon 2006
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+                            3
+                            <sup>rd</sup>
+                            Place - James Buchanan High School - Hackathon 2005
+                        </li>
+                    </ul>
+                </div>
+            </section>
+        </div>
+        -->
+        <!-- Bootstrap core JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Third party plugin JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
 </html>
